@@ -103,7 +103,7 @@ function getSort(headers, rows) {
   });
 }
 
-// поиск
+// поиск от 3х знаков
 function search(rows){
   inputSearch.oninput = () => {
     let val = inputSearch.value;
