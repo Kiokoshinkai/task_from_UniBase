@@ -1,35 +1,36 @@
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./Montserrat-ExtraBold.woff2") format('woff2'),
+      url("./Montserrat-ExtraBold.woff") format('woff'),
+      url("./Montserrat-ExtraBold.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./Inter-Regular.woff2") format("woff2"),
-        url("./Inter-Regular.woff") format("woff");
+  src: url("./pt-sans_regular.woff2") format('woff2'),
+      url("./pt-sans_regular.woff") format('woff'),
+      url("./PTSans-Regular.ttf") format('truetype');
 }
-
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("./Inter-Medium.woff2") format("woff2"),
-        url("./Inter-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("./Inter-Black.woff2") format("woff2"),
-        url("./Inter-Black.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'montserratextrabold';
-  src: url('montserrat-extrabold-webfont.woff2') format('woff2'),
-       url('montserrat-extrabold-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'PT Sans';
   font-style: normal;
-
+  font-weight: 700;
+  font-display: swap;
+  src: url("./pt-sans_bold.woff2") format('woff2'),
+      url("./pt-sans_bold.woff") format('woff'),
+      url("./PTSans-Bold.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./latosemibold.woff2") format('woff2'),
+      url("./latosemibold.woff") format('woff'),
+      url("./Lato-Semibold.ttf") format('truetype');
 }
