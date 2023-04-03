@@ -1,0 +1,49 @@
+.search-form {
+  display: flex;
+  justify-content: center
+}
+
+.main__search-form {
+  margin: 20px 0 20px 0;
+}
+
+.main__table {
+  margin: 0 auto;
+}
+
+.table {
+  border-collapse: collapse;
+  max-width: 80vw;
+  position: relative;
+}
+
+.table__head {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table__header {
+  border: 1px solid #000;
+  padding: 3px;
+  background-color: aqua;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.table__data {
+  border: 1px solid #000;
+  padding: 3px;
+}
+
+.table__data_hide {
+  display: none;
+}
+
+.table__body-row:nth-child(odd) {
+  background-color: lightgray;
+}
