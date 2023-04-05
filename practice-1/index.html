@@ -26,30 +26,30 @@
       <fieldset class="popup__form-fieldset">
           <div class="popup__form-wrap">
             <label class="popup__form-field">
-              <p class="popup__form-header"><span class="popup__form-star">*</span>Название организации</p>
+              <span class="popup__form-header"><span class="popup__form-star">*</span>Название организации</span>
               <input type="text" id="organization" name="organization" required class="popup__form-item">
             </label>
             <label class="popup__form-field">
-              <p class="popup__form-header"><span class="popup__form-star">*</span>Телефон</p>
+              <span class="popup__form-header"><span class="popup__form-star">*</span>Телефон</span>
               <input type="tel" id="phone_number" name="phone_number" required class="popup__form-item">
             </label>
             <label class="popup__form-field">
-              <p class="popup__form-header"><span class="popup__form-star">*</span>E-mail</p>
+              <span class="popup__form-header"><span class="popup__form-star">*</span>E-mail</span>
               <input type="email" id="Email" name="Email" required class="popup__form-item">
             </label>
           </div>
-          <label class="popup__logo-field">
-            <p class="popup__logo-header"><span class="popup__form-star popup__form-star_place_logo">*</span>Логотип (jpeg, png)</p>
-            <input type="file" id="logo" name="logo" required class="popup__logo-item">
-            <div class="popup__logo-container button">
-              <button aria-label="удалить выбраный файл" type="button" class="popup__logo-cancel"></button>
+          <div class="popup__logo-field">
+            <span class="popup__logo-header"><span class="popup__form-star popup__form-star_place_logo">*</span>Логотип (jpeg, png)</span>
+            <button aria-label="удалить выбраный файл" type="button" class="popup__logo-cancel"></button>
+            <label class="popup__logo-container button">
+              <input type="file" id="logo" name="logo" required class="popup__logo-item">
               <img src="./images/drag_n_drop_icon.svg" alt="иконка перетащить" class="popup__dragndrop">
               <span class="popup__logo-span">Выберите файл</span>
-            </div>
-          </label>
+            </label>
+          </div>
       </fieldset>
       <label class="popup__form-field">
-        <p class="popup__form-header"><span class="popup__form-star">*</span>Направление</p>
+        <span class="popup__form-header"><span class="popup__form-star">*</span>Направление</span>
         <input type="text" list="scopelist" id="scope" name="scope" required class="popup__form-item popup__form-item_custom_cursor">
         <datalist id="scopelist" class="popup__form-datalist">
           <option value="Экология" label="Экология"></option>
@@ -57,37 +57,37 @@
         </datalist>
       </label>
       <label class="popup__form-field popup__form-field_no_header">
-        <p class="popup__form-header"><span class="popup__form-star"></span></p>
+        <span class="popup__form-header"><span class="popup__form-star"></span></span>
         <input type="url" id="website" name="website" class="popup__form-item">
         <img src="./images/global_icon.svg" alt="шар в сеточку" class="popup__form-img">
       </label>
       <label class="popup__form-field popup__form-field_no_header">
-        <p class="popup__form-header"><span class="popup__form-star"></span></p>
+        <span class="popup__form-header"><span class="popup__form-star"></span></span>
         <input type="url" id="vk" name="vk" class="popup__form-item">
         <img src="./images/vk_icon.svg" alt="иконка в контакте" class="popup__form-img">
       </label>
       <label class="popup__form-field popup__form-field_no_header">
-        <p class="popup__form-header"><span class="popup__form-star"></span></p>
+        <span class="popup__form-header"><span class="popup__form-star"></span></span>
         <input type="url" id="odnoklassniki" name="odnoklassniki" class="popup__form-item">
         <img src="./images/odnoklassniki_icon.svg" alt="иконка одноклассники" class="popup__form-img">
       </label>
       <label class="popup__form-field popup__form-field_no_header">
-        <p class="popup__form-header"><span class="popup__form-star"></span></p>
+        <span class="popup__form-header"><span class="popup__form-star"></span></span>
         <input type="url" id="facebook" name="facebook" class="popup__form-item">
         <img src="./images/facebook_icon.svg" alt="иконка facebook" class="popup__form-img">
       </label>
       <label class="popup__form-field popup__form-field_no_header">
-        <p class="popup__form-header"><span class="popup__form-star"></span></p>
+        <span class="popup__form-header"><span class="popup__form-star"></span></span>
         <input type="url" id="instagram" name="instagram" class="popup__form-item">
         <img src="./images/instagram_icon.svg" alt="иконка instagram" class="popup__form-img">
       </label>
       <label class="popup__form-field popup__form-field_no_header">
-        <p class="popup__form-header"><span class="popup__form-star"></span></p>
+        <span class="popup__form-header"><span class="popup__form-star"></span></span>
         <input type="url" id="youtube" name="youtube" class="popup__form-item">
         <img src="./images/youtube_icon.svg" alt="иконка youtube" class="popup__form-img">
       </label>
       <label class="popup__form-field">
-        <p class="popup__form-header"><span class="popup__form-star"></span>Руководитель</p>
+        <span class="popup__form-header"><span class="popup__form-star"></span>Руководитель</span>
         <input type="text" id="ceo" name="ceo" class="popup__form-item">
       </label>
       <div class="popup__btn-wrap">
