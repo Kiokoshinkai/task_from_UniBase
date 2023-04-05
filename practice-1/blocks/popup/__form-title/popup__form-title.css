@@ -1,0 +1,13 @@
+.popup__form-title {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1.21;
+  margin: 0 auto calc(35px - 32px) 0;
+}
+@media screen and (max-width: 510px) {
+    .popup__form-title {
+          font-size: 18px;
+          margin: 0 auto;
+        }
+}

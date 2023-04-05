@@ -1,0 +1,14 @@
+.content__button {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.12;
+  background-color: #e5266e;
+  color: #fff;
+  border-radius: 4px;
+  min-width: 250px;
+  min-height: 50px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}

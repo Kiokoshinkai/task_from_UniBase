@@ -1,0 +1,9 @@
+.popup__form-item_custom_cursor::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+.popup__form-item_custom_cursor {
+  background-image: url(../../../../images/list_icon.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 11.25px 6.51px;
+}

@@ -1,0 +1,22 @@
+.popup__form-field {
+  border: 1px solid #d6dade;
+  border-radius: 2px;
+  box-sizing: border-box;
+  min-width: 362px;
+  max-width: 558px;
+  width: 100%;
+  height: 56px;
+  padding: 8px 16px 8px 16px;
+}
+@media screen and (max-width: 790px) {
+    .popup__form-field {
+        min-width: 250px;
+        max-width: 500px;
+        }
+}
+@media screen and (max-width: 510px) {
+    .popup__form-field {
+        width: 280px;
+        margin: 0 auto;
+        }
+}

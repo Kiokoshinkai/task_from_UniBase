@@ -1,0 +1,13 @@
+.popup__cancel-btn {
+  border: 0;
+  max-width: 67px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0848c0;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin: 0 auto;
+}

@@ -1,0 +1,11 @@
+.popup__logo-span {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18.66px;
+  line-height: 1.5;
+  text-decoration: underline;
+  max-width: 80.5px;
+  text-align: center;
+  margin-top: 7px;
+  cursor: pointer;
+}

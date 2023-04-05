@@ -1,0 +1,21 @@
+.popup__submit-btn {
+  color: #fff;
+  background-color: #e5266e;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.12;
+  border-radius: 4px;
+  border: 0;
+  text-align: center;
+  height: 48px;
+  cursor: pointer;
+  padding: 0;
+  margin: calc(50px - 32px) 0 15px 0;
+}
+@media screen and (max-width: 510px) {
+    .popup__submit-btn {
+        width: 280px;
+        margin: 0 auto 10px;
+        }
+}

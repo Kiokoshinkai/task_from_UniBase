@@ -1,0 +1,26 @@
+.popup__logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(../../../images/profile_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 163.33px;
+  min-height: 163.33px;
+  border-radius: 50%;
+  z-index: 0;
+  margin-top: 12.83px;
+}
+.popup__logo-container::before{
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0 ,0 , 0.6);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 50%;
+}

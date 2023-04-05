@@ -1,0 +1,4 @@
+.popup__btn-wrap {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,8 @@
+.popup__form-star {
+  align-self: flex-end;
+  color: #d90000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 0;
+  margin: 0 2px 1.33px 0;
+}

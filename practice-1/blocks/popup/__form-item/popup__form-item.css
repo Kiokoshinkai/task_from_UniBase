@@ -1,0 +1,12 @@
+.popup__form-item {
+  font-size: 16px;
+  color: #0c1014;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+.popup__form-item:focus {
+  outline: none;
+}

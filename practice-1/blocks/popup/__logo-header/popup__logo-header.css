@@ -1,0 +1,8 @@
+.popup__logo-header {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #6a6e72;
+  margin: 0;
+}
