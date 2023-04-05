@@ -77,7 +77,9 @@
   display: flex;
   align-self: center;
   margin: 0 auto;
+  width: 754px;
 }
+
 .popup__form {
   display: flex;
   flex-direction: column;
@@ -87,7 +89,7 @@
   background-color: #fff;
   border-radius: 12px;
   padding: 53px 98px 53px 98px;
-  /* gap: 32px; */
+  gap: 32px;
 }
 .popup__form-title {
   font-family: 'Montserrat', 'Arial', sans-serif;
@@ -96,12 +98,24 @@
   line-height: 1.21;
   margin: 0 auto calc(35px - 32px) 0;
 }
+.popup__form-fieldset {
+  display: flex;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.popup__form-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-right: 31.83px;
+}
 .popup__logo-field {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 175px;
+  max-width: 163.33px;
   width: 100%;
 }
 .popup__logo-header {
@@ -129,9 +143,8 @@
   background-image: url(./images/profile_img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 175px;
-  width: 100%;
-  min-height: 175px;
+  min-width: 163.33px;
+  min-height: 163.33px;
   border-radius: 50%;
   z-index: 0;
   margin-top: 12.83px;
@@ -251,6 +264,7 @@
   height: 48px;
   cursor: pointer;
   padding: 0;
+  margin: calc(50px - 32px) 0 15px 0;
 }
 .popup__cancel-btn {
   border: 0;
@@ -268,4 +282,8 @@
 .button:hover {
   opacity: 0.8;
   transition: opacity 100ms linear;
+}
+.popup__btn-wrap {
+  display: flex;
+  flex-direction: column;
 }

@@ -23,29 +23,31 @@
   <div class="popup__container">
     <form action="add-partner" class="popup__form">
       <h2 class="popup__form-title">Стать партнёром проекта</h2>
-
-      <label class="popup__logo-field">
-        <p class="popup__logo-header"><span class="popup__form-star popup__form-star_place_logo">*</span>Логотип (jpeg, png)</p>
-        <input type="file" id="logo" name="logo" required class="popup__logo-item">
-        <div class="popup__logo-container button">
-          <button aria-label="удалить выбраный файл" type="button" class="popup__logo-cancel"></button>
-          <img src="./images/drag_n_drop_icon.svg" alt="иконка перетащить" class="popup__dragndrop">
-          <span class="popup__logo-span">Выберите файл</span>
-        </div>
-      </label>
-
-      <label class="popup__form-field">
-        <p class="popup__form-header"><span class="popup__form-star">*</span>Название организации</p>
-        <input type="text" id="organization" name="organization" required class="popup__form-item">
-      </label>
-      <label class="popup__form-field">
-        <p class="popup__form-header"><span class="popup__form-star">*</span>Телефон</p>
-        <input type="tel" id="phone_number" name="phone_number" required class="popup__form-item">
-      </label>
-      <label class="popup__form-field">
-        <p class="popup__form-header"><span class="popup__form-star">*</span>E-mail</p>
-        <input type="email" id="Email" name="Email" required class="popup__form-item">
-      </label>
+      <fieldset class="popup__form-fieldset">
+          <div class="popup__form-wrap">
+            <label class="popup__form-field">
+              <p class="popup__form-header"><span class="popup__form-star">*</span>Название организации</p>
+              <input type="text" id="organization" name="organization" required class="popup__form-item">
+            </label>
+            <label class="popup__form-field">
+              <p class="popup__form-header"><span class="popup__form-star">*</span>Телефон</p>
+              <input type="tel" id="phone_number" name="phone_number" required class="popup__form-item">
+            </label>
+            <label class="popup__form-field">
+              <p class="popup__form-header"><span class="popup__form-star">*</span>E-mail</p>
+              <input type="email" id="Email" name="Email" required class="popup__form-item">
+            </label>
+          </div>
+          <label class="popup__logo-field">
+            <p class="popup__logo-header"><span class="popup__form-star popup__form-star_place_logo">*</span>Логотип (jpeg, png)</p>
+            <input type="file" id="logo" name="logo" required class="popup__logo-item">
+            <div class="popup__logo-container button">
+              <button aria-label="удалить выбраный файл" type="button" class="popup__logo-cancel"></button>
+              <img src="./images/drag_n_drop_icon.svg" alt="иконка перетащить" class="popup__dragndrop">
+              <span class="popup__logo-span">Выберите файл</span>
+            </div>
+          </label>
+      </fieldset>
       <label class="popup__form-field">
         <p class="popup__form-header"><span class="popup__form-star">*</span>Направление</p>
         <input type="text" list="scopelist" id="scope" name="scope" required class="popup__form-item popup__form-item_custom_cursor">
@@ -88,8 +90,10 @@
         <p class="popup__form-header"><span class="popup__form-star"></span>Руководитель</p>
         <input type="text" id="ceo" name="ceo" class="popup__form-item">
       </label>
-      <button aria-label="отправить анкету партнера" type="submit" class="popup__submit-btn button">Стать партнёром проекта</button>
-      <button aria-label="отменить отправку анкеты партнера" type="button" class="popup__cancel-btn button">Отменить</button>
+      <div class="popup__btn-wrap">
+        <button aria-label="отправить анкету партнера" type="submit" class="popup__submit-btn button">Стать партнёром проекта</button>
+        <button aria-label="отменить отправку анкеты партнера" type="button" class="popup__cancel-btn button">Отменить</button>
+      </div>
     </form>
   </div>
 </div>
